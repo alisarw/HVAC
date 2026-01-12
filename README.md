@@ -1,4 +1,4 @@
-HVAC Symbol Backend (Mock)
+HVAC Symbol Backend 
 
 This project is a small backend that allows uploading an HVAC drawing (PDF or image)
 and returns a JSON response with detected HVAC symbols (mock data).
@@ -39,6 +39,7 @@ How to test:
 4. Upload any image or PDF
 5. Click Execute
 6. You will get JSON with detected symbols
+
 
 
 
