@@ -2,7 +2,7 @@ from fastapi import FastAPI, UploadFile, File
 from app.schemas import DetectResponse
 from app.services.detector import detect_symbols_mock
 
-app = FastAPI(title="HVAC Symbol Backend (Mock)")
+app = FastAPI(title="HVAC Symbol Backend")
 
 
 
@@ -18,3 +18,4 @@ async def detect(file: UploadFile = File(...)):
         "file_name": file.filename,
         "symbols": symbols
     }
+
