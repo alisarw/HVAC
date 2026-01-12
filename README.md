@@ -40,5 +40,5 @@ How to test:
 5. Click Execute
 6. You will get JSON with detected symbols
 
-Notes:
-This project uses mock data. No AI is implemented.
+
+
